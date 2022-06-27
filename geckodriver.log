@@ -1,0 +1,26 @@
+1656031864602	geckodriver	INFO	Listening on 127.0.0.1:60627
+1656031865399	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "37451" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile80id2x"
+1656032047966	geckodriver	INFO	Listening on 127.0.0.1:51223
+1656032048083	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "57935" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 37825
+1656190228180	geckodriver	INFO	Listening on 127.0.0.1:40897
+1656190228996	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "35377" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 40043
+1656190299985	geckodriver	INFO	Listening on 127.0.0.1:53313
+1656190300100	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "35945" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 46229
+1656190325055	geckodriver	INFO	Listening on 127.0.0.1:33537
+1656190325181	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "51279" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 37995
+1656190401743	geckodriver	INFO	Listening on 127.0.0.1:40075
+1656190401865	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "47567" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 43703
+1656190638635	geckodriver	INFO	Listening on 127.0.0.1:60929
+1656190638765	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "45747" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 34083
+1656190654780	geckodriver	INFO	Listening on 127.0.0.1:33307
+1656190654908	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "33945" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 39109
+1656190712323	geckodriver	INFO	Listening on 127.0.0.1:41771
+1656190712449	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-profile" "/home/fede/snap/firefox/common/.mozilla/firefox/cgnsdyox.default" "--remote-debugging-port" "41455" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 45371
