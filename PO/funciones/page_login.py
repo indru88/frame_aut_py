@@ -9,7 +9,8 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException
 from PO.funciones.funciones import Funciones_Globales
 
-class Page_Login():
+
+class PageLogin():
     def __init__(self, driver):
         self.driver = driver
         self.f = Funciones_Globales(self.driver)

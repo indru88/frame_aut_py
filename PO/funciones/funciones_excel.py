@@ -1,5 +1,6 @@
 import openpyxl
 
+
 class FuncionesExcel():
     def __init__(self, driver):
         self.driver = driver
@@ -18,4 +19,9 @@ class FuncionesExcel():
         wb = openpyxl.load_workbook(path)
         sheet = wb[sheet_name]
         return sheet.cell(row=row_num, column=column_num).value
-    
+
+    def write_data(self, path, sheet_name, row_num, column_num, data):
+        Worbook = openpyxl.load_workbook(path)
+        sheet = Worbook[sheet_name]
+        sheet.cell(row=row_num, column=column_num).value = data
+        Worbook.save(path)

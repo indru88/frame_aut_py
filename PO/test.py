@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException
 from funciones.funciones import Funciones_Globales as FG
-from funciones.page_login import Page_Login
+from funciones.page_login import PageLogin
 
 class base_test(unittest.TestCase):
     def setUp(self):
