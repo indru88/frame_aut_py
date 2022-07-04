@@ -3,6 +3,7 @@ import warnings
 from time import sleep
 from selenium import webdriver
 from selenium.common import TimeoutException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
@@ -92,4 +93,17 @@ class Funciones_Globales():
             self.scroll(n)
             self.dormir()
             element.click()
-            print(f"Click en el elemento {n}")
+
+    # Mouse Actions
+    def mouse(self, xpath, tipo="left"):
+        element = self.find(xpath)
+        self.scroll(xpath)
+        act = ActionChains(self.driver)
+        match tipo:
+            case "double":
+                act.double_click(element).perform()
+            case "right":
+                act.context_click(element).perform()
+            case "left":
+                act.click(element).perform()
+        self.dormir()

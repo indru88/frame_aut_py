@@ -1,15 +1,8 @@
 import unittest
 from time import sleep
-from funciones.funciones_excel import *
+from funciones_excel import *
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import TimeoutException
-from funciones.funciones import Funciones_Globales as FG
-from funciones.page_login import PageLogin
+from funciones import Funciones_Globales as FG
 
 
 class base_test(unittest.TestCase):
