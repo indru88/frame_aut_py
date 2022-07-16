@@ -1,0 +1,3 @@
+Escribiendo en el elemento //input[@id='txtUsername'] el texto -> Admin
+Escribiendo en el elemento //input[@id='txtPassword'] el texto -> admin123
+FIN
